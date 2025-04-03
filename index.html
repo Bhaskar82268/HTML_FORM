@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title> FORM </title>
+    <style>
+        #container {
+            width: 450px;
+            height: 450px;
+            border: 5px solid black;
+            display: grid;
+            margin: auto;
+            padding: 0px 20px 50px 50px;
+            background-color: beige;
+        }
+
+        h2 {
+            padding-top: 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <form>
+            <h2 style="color: crimson; "> <u> STUDENT'S DETAIL</u></h2>
+            <label for="fname"> Name : </label>
+            <input type="text" id="name" name="name">
+            <br>
+            <label for="mobile"> Mobile Number : </label>
+            <input type="number" id="mobile" name="mobile">
+            <br>
+            <label for="email"> Email Id: </label>
+            <input type="email" id="email" name="email">
+            <br>
+            <P><b> Please Check your Education : </b></P>
+            <input type="checkbox" id="phd" name="phd" value="phd">
+            <label for="Ug"> PHD</label>
+            <BR>
+            <input type="checkbox" id="pg" name="pg" value="pg">
+            <label for="pg"> Postgraduate </label>
+            <BR>
+            <input type="checkbox" id="ug" name="ug" value="ug">
+            <label for="Ug"> Undergraduate </label>
+            <br>
+            <input type="checkbox" id="inter" name="inter" value="inter">
+            <label for="Ug"> Intermediate </label>
+
+            <br>
+            <input type="checkbox" id="10th" name="10th" value="10th">
+            <label for="Ug"> Matriculation </label>
+
+            <br>
+            <br>
+            <span> Do You Like Tea? </span>
+            <input type="select" id="chai" name="chai" placeholder="Yes/No">
+
+            <br>
+            <label for="submit"> Verify your Details</label>
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+        </form>
+    </div>
+</body>
+
+</html>
